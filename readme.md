@@ -42,7 +42,7 @@ O projeto utiliza uma arquitetura distribuída, isolando responsabilidades para 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/SeuUsuario/Discord-Voice-Bot.git
+git clone https://github.com/gmauad/Discord-Bot.git
 cd bot
 ```
 
