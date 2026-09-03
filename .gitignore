@@ -1,0 +1,9 @@
+package-lock.json
+package.json
+node_modules/
+__pycache__/
+.env
+*.pcm
+*.wav
+*.mp3
+*.ogg

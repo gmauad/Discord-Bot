@@ -1,0 +1,19 @@
+@echo off
+echo [SISTEMA] Iniciando Microsservicos do Bot....
+
+echo [1/4] Web Scraper (Porta 3000)...
+start "Scraper API" cmd /k "node src/scrapper_api.js"
+
+echo [2/4] Ouvido STT - Whisper (Porta 4000)...
+start "Ouvido API" cmd /k "python src/voz_api.py"
+
+echo [3/4] Boca TTS - Edge (Porta 5000)...
+start "Boca API" cmd /k "python src/falar_api.py"
+
+echo [SISTEMA] Aguardando inicializacao dos motores neurais...
+timeout /t 3 >nul
+
+echo [4/4] Gateway Discord...
+start "Bot Gateway" cmd /k "node src/bot.js"
+
+echo [SISTEMA] Bot totalmente operacional!
