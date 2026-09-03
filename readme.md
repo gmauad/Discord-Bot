@@ -31,16 +31,18 @@ O projeto utiliza uma arquitetura distribuída, isolando responsabilidades para 
 ## Instalação
 
 **1. Clone o repositório:**
+
+
 ```bash
 git clone [https://github.com/SeuUsuario/Discord-Voice-Bot.git](https://github.com/SeuUsuario/Discord-Voice-Bot.git)
 cd bot
 2. Instale as dependências do Node.js:
 
-Bash
+```Bash
 npm install
 3. Instale as dependências do Python:
 
-Bash
+```Bash
 pip install flask faster-whisper edge-tts numpy scipy 
 - Configuração
 Renomeie o arquivo .env.example para .env e preencha com as suas credenciais:
