@@ -4,9 +4,13 @@ O **DiscordBot** é um assistente avançado e totalmente integrado com Inteligê
 
 Tudo isso rodando **100% na máquina local**, sem depender de APIs pagas de linguagem.
 
+![Bot rodando no Discord](assets/image_48f7f0.png)
+
 ## Arquitetura de Microsserviços
 
 O projeto utiliza uma arquitetura distribuída, isolando responsabilidades para garantir tolerância a falhas e alto desempenho, evitando gargalos no Event Loop do Node.js durante o processamento de tensores pesados.
+
+![Terminais dos Microsserviços](assets/image_3f1681.png)
 
 1. **Gateway Discord (`bot.js`)**
    Escrito em Node.js. Gerencia WebSockets, captura o fluxo de voz contínuo (PCM bruto) nativo do Discord e aplica VAD (Voice Activity Detection) primário.
