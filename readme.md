@@ -4,7 +4,7 @@ O **DiscordBot** é um assistente avançado e totalmente integrado com Inteligê
 
 Tudo isso rodando **100% na máquina local**, sem depender de APIs pagas de linguagem.
 
-![Bot rodando no Discord](assets/image_48f7f0.png)
+![Bot rodando no Discord](assets/image48f7f0.png)
 
 ## Arquitetura de Microsserviços
 
